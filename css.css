@@ -1,0 +1,43 @@
+body{
+    background-color: #B8B8D1;
+}
+
+.Logo, a {
+    max-width: 168px;
+  }
+  @media (max-width: 800px) {
+    .Logo, a {
+      max-width: 105px;
+      margin-left: 40%;
+    }
+  }
+
+img{
+    width: 140px;
+    margin-top: 50%;
+}
+
+
+button, .botao{
+    background-color: burlywood;
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#respostas{
+    margin: 9px 2px 9px 2px;
+    border: 1px solid chocolate;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+#resB{
+    margin-top: 40px;
+}
+
+#chat{
+    display: none;
+}
